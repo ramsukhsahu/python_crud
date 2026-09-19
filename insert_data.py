@@ -3,10 +3,10 @@ con=get_connection()
 mycursor = con.cursor()
 # Data to insert
 users = [
-    ("John1", "john@gmail.com", "john123"),
-    ("Alice1", "alice@gmail.com", "alice123"),
-    ("Bob12", "bob1@gmail.com", "bob1213"),
-    ("Emma11", "emma1@gmail.com", "emma1123")
+    ("Ram", "ram@gmail.com", "ram123"),
+    ("Ajay", "ajay@gmail.com", "ajay1234"),
+    ("vijay", "vijay@gmail.com", "vijay1123"),
+    ("akash", "akash@gmail.com", "akash111")
 ]
 # Insert multiple records
 sql = """

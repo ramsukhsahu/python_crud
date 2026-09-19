@@ -3,7 +3,7 @@ con=get_connection()
 mycursor = con.cursor()
 # Delete record
 sql = "DELETE FROM users WHERE id = %s"
-value = (13,)
+value = (3,)
 mycursor.execute(sql, value)
 con.commit()
 print(mycursor.rowcount, "record deleted.")

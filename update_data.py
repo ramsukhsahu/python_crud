@@ -7,7 +7,7 @@ sql = """
     SET name = %s, email = %s, password = %s
     WHERE id = %s
 """
-values = ("John Smith333", "johnsmith33@gmail.com", "john456", 13)
+values = ("Ajay Kumar", "ajay11@gmail.com", "ajay1234", 2)
 mycursor.execute(sql, values)
 con.commit()
 print(mycursor.rowcount, "record updated.")
